@@ -1,0 +1,57 @@
+##############################
+# Java / Spring Boot
+##############################
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.log
+**/*.iml
+**/.project
+**/.classpath
+
+##############################
+# Node.js / React
+##############################
+**/node_modules/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.env
+**/dist/
+**/build/
+
+##############################
+# IDE & Editor junk
+##############################
+**/.idea/
+**/.vscode/
+**/*.code-workspace
+
+##############################
+# OS-specific cruft
+##############################
+**/.DS_Store
+**/Thumbs.db
+**/.AppleDouble
+**/Icon?
+
+##############################
+# Test / Coverage artifacts
+##############################
+**/coverage/
+**/*.lcov
+
+##############################
+# Misc. temp & backup files
+##############################
+**/*.tmp
+**/*.temp
+**/*.bak
+
+##############################
+# lockfiles — uncomment if you DON’T want them
+##############################
+**/package-lock.json
+**/yarn.lock
+**/pnpm-lock.yaml

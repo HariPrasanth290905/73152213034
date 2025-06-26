@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: URL_Shortener
+
+  #DataSource Properties
+  datasource:
+    url: jdbc:mysql://localhost:3306/urlshortner
+    username: root
+    password: irah
+  #Auto update the database on restart
+  jpa:
+    hibernate:
+      ddl-auto: update
+#Server port number
+server:
+  port: 8080
